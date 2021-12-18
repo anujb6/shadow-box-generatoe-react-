@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+.App {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  margin-top: 0;
+  padding: 0;
+  background-color: #111;
+}
+.controls {
+  width: 40vw;
+  display: grid;
+}
+input {
+  width: 80%;
+}
+.box {
+  width: 40vw;
+  height: 50vh;
+  background-color: blueviolet;
+  color: black;
+}
+.output {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  padding-top: 2vw;
+  font-family: Teko;
+  background-color: #111;
+  color: white;
+  text-shadow: 4px 4px 1px gray;
+}
